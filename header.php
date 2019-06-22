@@ -67,7 +67,8 @@
         <!-- <div class="loder-cover"></div>-->
 
         <header>
-                <section class="top-header">
+            <img class="fack-img" src="images/header.png">
+                <!-- <section class="top-header">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3 logo">
@@ -81,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
           
         </header>
 

@@ -1,12 +1,13 @@
 
   <footer>
-	 <div class="container">
+    <img class="fack-img" src="images/footer.png">
+	 <!-- <div class="container">
 		
 			<div class="mcopy">
 				<span>Copyright 2018@ testproject. All Rights Reserved</span>
 			</div>
 			
-	 </div>	
+	 </div>	 -->
   </footer>
 
 
