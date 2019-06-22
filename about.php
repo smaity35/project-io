@@ -173,8 +173,119 @@
                           </table>                          
                       </div>
                   </div>
+                  <div class="title sec-3">
+                    <h6>
+                        Social Links
+                        <small>Give your patrons confidence - securely verify your accounts and display links on your page. We’ll never post on your behalf.</small>
+                    </h6>
+                    <ul>
+                        <li>
+                            <span>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                Facebook
+                            </span>
+                            <button>Connect</button>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                Instagram
+                            </span>
+                            <button>Connect</button>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-twitch" aria-hidden="true"></i>
+                                Twitch
+                            </span>
+                            <button>Connect</button>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                Twitter
+                            </span>
+                            <button>Connect</button>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                Youtube
+                            </span>
+                            <button>Connect</button>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="title sec-4">
+                      <div class="form">                         
+                          <table>
+                              <tr>
+                                  <td>
+                                      <h6>Adult Content</h6>
+
+                                  </td>
+                                  <td>                                     
+                                      <label>
+                                        <input type="checkbox" name="" >
+                                          <div>
+                                              <p>Does your work contain adult themes such as nudity or dangerous activities?</p>
+                                              <small>
+                                                  “Adult Content” means material that features nudity, dangerous activities or anything not suitable for audiences under 18 years old. Patreon is a place where all types of artists can express themselves freely. At the same time, we need to ensure that the browsing experience is sensitive to different age groups, cultures and contexts. Please help us keep Patreon a welcoming place for everyone and tag your content appropriately. <a href="">Learn More</a>
+                                              </small>
+                                          </div>
+                                      </label>
+                                  </td>
+                              </tr>
+                            
+                          </table>                          
+                      </div>
+                  </div>
               </div>
-              <div class="col-md-3"></div>
+              <div class="col-md-3">
+                  <div class="big-btn">
+                      <button class="active" disabled>Save Changes</button>
+                  </div>
+                  <div class="title sec-5">
+                      <h6>CHECKLIST</h6>
+                      <ul class="list-type-1">
+                          <li class="green">
+                              <div class="round done"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload profile picture</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload cover image</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Create about section</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Verify phone number</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                      </ul>
+                      <h6>LEARN MORE</h6>
+                      <ul class="list-type-2">
+                          <li><a href="">Membership 101: Best Practices</a></li>
+                          <li><a href="">How to choose your business model</a></li>
+                          <li><a href="">How to talk about Patreon to your audience</a></li>
+                          <li><a href="">Knowing your worth as a creator</a></li>
+                      </ul>
+                  </div>
+              </div>
             </div>
 
           </div>
