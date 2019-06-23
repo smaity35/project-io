@@ -161,6 +161,38 @@ body{
 	display: block;
 }
 
+.modal-content{
+	border-radius: 0;
+}
+.modal-footer{
+	button{
+		margin-left: 15px;
+		display: inline-block;
+		line-height: 38px;
+		padding:0 25px;
+		border-radius: 19px;
+		font-weight: 600;
+		&.cancel-btn{			
+			background-color: $red;
+			color: #fff;	
+			box-shadow:2px 2px 10px rgba($red, 0.3); 		
+			&:hover{
+				background-color: $dark;
+				box-shadow: none;
+			}
+		}
+		&.extra-btn{
+			background-color: $purple;
+			color: #fff;		
+			box-shadow:2px 2px 10px rgba($purple, 0.3);	
+			&:hover{
+				background-color: $dark;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
 header {
     background-color: #f5f5f5;
     position: relative;
@@ -1240,9 +1272,7 @@ footer {
 				}
 			}
 		}
-
 	}
-
 	.big-btn{
 		margin-bottom: 30px;
 		button{
@@ -1265,7 +1295,6 @@ footer {
 			}
 		}
 	}
-
 	.sec-5{
 		padding: 20px;
 		h6{
@@ -1367,6 +1396,34 @@ footer {
 							background-color: $red;
 						}
 					}
+				}
+			}
+		}
+	}
+	.sec-6{
+		text-align: center;
+		h6{
+			font-size: 18px;
+			font-weight: 600;
+		}
+		p{
+			line-height: 24px;
+		}
+		.link{
+			padding-top: 20px;
+			a{
+				display: inline-block;
+				cursor: pointer;
+				padding: 0 30px;
+				line-height: 36px;
+				background-color: $purple;
+				color: #fff;
+				border-radius: 18px;
+				font-weight: 500;
+				box-shadow: 2px 3px 10px rgba($purple,0.30);
+				&:hover{
+					background-color: $red;
+					box-shadow: none;						
 				}
 			}
 		}

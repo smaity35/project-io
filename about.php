@@ -21,7 +21,7 @@
             </div>
 
             <div class="row">
-              <div class="col-md-9">
+              <div class="col-md-8">
                   <div class="title sec-1">
                       <div class="form">                         
                           <table>
@@ -241,7 +241,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                   <div class="big-btn">
                       <button class="active" disabled>Save Changes</button>
                   </div>
@@ -290,8 +290,21 @@
 
           </div>
           <div id="menu1" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Some content in menu 1.</p>
+            <div class="header-part">
+                <h3>Tiers</h3>
+                <p>Choose what to offer your patrons</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="title sec-6">
+                      <h6>Upgrade to Pro Plan</h6>
+                      <p>
+                          Tiers are levels of membership with different benefits at different dollar amounts. Build a robust membership business by offering your fans benefits at different levels.
+                      </p>
+                      <div class="link"><a data-toggle="modal" data-target="#myModal">Upgrade</a></div>
+                    </div>
+                </div>
+            </div>
           </div>
           <div id="menu2" class="tab-pane fade">
             <h3>Menu 2</h3>
@@ -316,6 +329,32 @@
           </div>
       </div>
   </section>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><i class="ion ion-md-close"></i></button>
+        <h4 class="modal-title">UPGRADE TO PRO</h4>
+      </div>
+      <div class="modal-body">
+        <p>Get all the tools you need to grow your membership business and delight your fans. The cost for Pro is 8% of your Patreon earnings.</p>
+        <p>
+            Please confirm that you would like to upgrade.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="cancel-btn" data-dismiss="modal">Cancel</button>
+        <button type="button" class="extra-btn" >Upgrade to Pro</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <?php include('footer.php');?>
 
