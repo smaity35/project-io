@@ -307,12 +307,227 @@
             </div>
           </div>
           <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <p>Some content in menu 2.</p>
+            <div class="header-part">
+                <h3>Goals</h3>
+                <p>Tell your patrons what you're working towards with their support</p>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                  <div class="title sec-7">
+                    <h5>What would you like to work toward with your patrons?</h5>
+                    <p>
+                        Goals are the best way to get patrons excited about the next big step of your creative journey. Paint a picture of what you'll work towards together.
+                    </p>
+                    <hr>
+                    <h6>
+                        What type of goal are you working towards?
+                        <small>You can change your mind at any time. You’ll keep your Patreon earnings regardless of hitting your goals.</small>
+                    </h6>
+                     
+                     <ul class="list-type-3">
+                         <li>
+                              <label><input type="radio" checked="" name="radio1">
+                                <div>
+                                    <p>
+                                    <span class="ion ion-logo-usd"></span> Earnings-based goals
+                                    </p>
+                                    <p>Your goals are based on how much you earn on Patreon.</p>
+                                    <p>
+                                        <i>
+                                            "When I reach <b>$500 per month</b>, I’ll start a special podcast series where I interview 1 patron every month."
+                                        </i>
+                                    </p>
+                                </div>
+                                </label>
+                                      
+                         </li> 
+                         <li>
+                              <label><input type="radio"  name="radio1">
+                                <div>
+                                    <p>
+                                    <span class="ion ion-md-contacts"></span> Community-based goals
+                                    </p>
+                                    <p>Your goals are based on how many patrons you have on Patreon.</p>
+                                    <p>
+                                        <i>
+                                            "When I reach <b>500 patrons</b>, I’ll hire an editor to help me release 2 videos per week instead of 1.”
+                                        </i>
+                                    </p>
+                                </div>
+                                </label>
+                                      
+                         </li>
+                         
+                     </ul>
+
+                     
+
+                     <div class="title inside-tile">
+                        <div class="delete"><i class="ion ion-md-trash"></i></div>
+                         <table>
+                             <tr>
+                                 <td>
+                                     <h6>Goal number of patrons</h6>
+                                 </td>
+                                 <td>
+                                     <div class="input-number">
+                                         <span><i class="ion ion-md-person"></i></span>
+                                         <input type="number" name="" placeholder="0"> 
+                                     </div>
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td>
+                                     <h6>Goal description</h6>
+                                 </td>
+                                 <td>
+                                     <textarea></textarea>
+                                 </td>
+                             </tr>
+                         </table>
+                     </div>
+
+                     <div class="add-btn-goal">
+                         <button><i class="ion ion-md-add"></i> Add another goal</button>
+                     </div>
+
+                  </div>
+                
+                
+             
+              </div>
+              <div class="col-md-4">
+                  <div class="big-btn">
+                      <button class="active" disabled>Save Changes</button>
+                  </div>
+                  <div class="title sec-5">
+                      <h6>CHECKLIST</h6>
+                      <ul class="list-type-1">
+                          <li class="green">
+                              <div class="round done"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload profile picture</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload cover image</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Create about section</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Verify phone number</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                      </ul>
+                      <h6>LEARN MORE</h6>
+                      <ul class="list-type-2">
+                          <li><a href="">Membership 101: Best Practices</a></li>
+                          <li><a href="">How to choose your business model</a></li>
+                          <li><a href="">How to talk about Patreon to your audience</a></li>
+                          <li><a href="">Knowing your worth as a creator</a></li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
           </div>
           <div id="menu3" class="tab-pane fade">
-            <h3>Menu 3</h3>
-            <p>Some content in menu 2.</p>
+            <div class="header-part">
+                <h3>Thanks</h3>
+                <p>Let your patrons know you appreciate them by setting up a custom thank you message for their support</p>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                  
+                 
+                  <div class="title sec-1">
+                      <div class="form">                         
+                          <table>
+                            <tr>
+                                <td colspan="2" class="no-pad-left">
+                                    <h6>How do you want to thank your patrons? 
+                                        <br>
+                                        <small>
+                                           How amazing would it be if your patrons got a personal, secret thank you from you when they pledged? Don't worry, this text isn't required in order to launch. You can come back to this at any time.
+                                        </small>
+                                    </h6>
+                                    <textarea></textarea>
+                                    
+                                </td>
+                            </tr>
+                           
+                              <tr>
+                                  <td>
+                                      <h6>Thank You Video</h6>
+                                  </td>
+                                  <td><input type="text" name="" placeholder="Video URL"> 
+                                </td>
+                              </tr>
+                             
+                          </table>                          
+                      </div>
+                  </div>
+                 
+                  
+              </div>
+              <div class="col-md-4">
+                  <div class="big-btn">
+                      <button class="active" disabled>Save Changes</button>
+                  </div>
+                  <div class="title sec-5">
+                      <h6>CHECKLIST</h6>
+                      <ul class="list-type-1">
+                          <li class="green">
+                              <div class="round done"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload profile picture</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload cover image</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Create about section</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Verify phone number</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                      </ul>
+                      <h6>LEARN MORE</h6>
+                      <ul class="list-type-2">
+                          <li><a href="">Membership 101: Best Practices</a></li>
+                          <li><a href="">How to choose your business model</a></li>
+                          <li><a href="">How to talk about Patreon to your audience</a></li>
+                          <li><a href="">Knowing your worth as a creator</a></li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
           </div>
           <div id="menu4" class="tab-pane fade">
             <h3>Menu 4</h3>
