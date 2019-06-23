@@ -530,18 +530,17 @@
             </div>
           </div>
           <div id="menu4" class="tab-pane fade">
-            <h3>Menu 4</h3>
-            <p>Some content in menu 2.</p>
+            <div class="header-part">
+                <h3>Payments</h3>
+                <p>Let’s get you paid.</p>
+            </div>
           </div>
           <div id="menu5" class="tab-pane fade">
-            <h3>Menu 5</h3>
-            <p>Some content in menu 2.</p>
+            
           </div>
         </div>
 
-          <div class="row">
-              <div></div>
-          </div>
+          
       </div>
   </section>
 
