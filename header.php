@@ -12,6 +12,8 @@
         <title itemprop="name">project io</title>
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <!-- <link rel="icon" href="images/favico.png" >-->
         <!-- Bootstrap -->
         <link rel="stylesheet" href="css/jquery-ui.css">
@@ -21,8 +23,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
-        <link href="css/fancybox.css" rel="stylesheet">
-        <link href="css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="css/fancybox.css" rel="stylesheet">        
         <link href="css/easy-responsive-tabs.css" rel="stylesheet">
         <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
         <link href="css/slick.css" rel="stylesheet">

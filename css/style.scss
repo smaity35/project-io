@@ -1672,3 +1672,229 @@ footer {
 }
 
 
+.profile-header{
+	padding: 200px 0 30px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	&::after{
+		content: "";
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: 70%;
+		left: 0;
+		bottom: 0;
+		background-image: linear-gradient(to top, rgba(#000,0.7), transparent);
+	}
+	.profile-contents{
+		position: relative;
+		z-index: 2;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-align-items:center;
+		align-items:center;
+		.profile-img{
+			background-position: center;
+			background-size: cover;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			border:3px solid rgba(#fff,0.8);
+			box-shadow: 2px 2px 3px rgba(#000,0.3);
+		}
+		.content-box{
+			padding-left: 30px;
+			color: #fff;
+			text-shadow: 2px 2px 3px rgba(#000,0.3);
+
+		}
+	}
+}
+
+.overview-tile1{
+	iframe{
+		width: 100%;
+		height: 250px;
+		margin-bottom: 15px;
+	}
+}
+
+.posts-head{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.overview-tile2{
+	table{
+		width: 100%;
+		td{
+			&:last-child{
+				padding-left: 15px;
+			}
+		}
+	}
+	p{
+		line-height: 26px;
+		a{
+			color: $red;
+			&:hover{
+				color: $dark;
+			}
+		}
+	}
+}
+
+.overview-tile3{
+	padding: 0 !important;
+	.imag-area{		
+		a{
+			width: 100%;
+			height: 280px;
+			background-size: cover;
+			background-position: center;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			>div{
+				text-align: center;
+				color: #fff;
+				font-size: 18px;
+			}
+			p{
+				font-weight: 600;
+			}
+			button{
+				display: inline-block;
+				padding: 0 20px;
+				line-height: 38px;
+				background-color: #eee;
+				color: $dark;
+				border-radius: 19px;
+				font-weight: 600;
+				box-shadow: 2px 3px 10px rgba($dark,0.30);
+				font-size: 15px;
+				&:hover{
+					background-color: $red;
+					color: #fff;	
+					box-shadow: none;
+				}
+			}
+		}
+	}
+	.content-area{
+		padding: 20px 15px;
+		.date-lock{
+			margin-bottom: 10px;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+			position: relative;
+
+			.loc-status{
+				position: absolute;
+				bottom: 100%;
+				width: 250px;
+				background-color: #fff;
+				padding: 15px;  
+				right: 0;
+				color: $dark;
+				text-align: left;
+				box-shadow: 3px 3px 10px rgba($dark,0.2);
+				border:1px solid rgba($dark,0.2);
+				display: none;
+				line-height: normal;
+				h4{
+					font-size: 15px;
+					font-weight: 600;
+				}
+				ul{
+					padding-left: 15px;
+					li{
+						list-style: square;
+						line-height: 26px;
+					}
+				}
+			}
+			.lock{
+				background-color: transparent;
+				position: relative;
+				color: #888;
+				padding: 0 0;
+				line-height: 40px;
+
+				i{
+					display: inline-block;
+					vertical-align: middle;
+					font-size: 18px;
+				}
+				span{
+					cursor: pointer;
+				}
+				&:hover{
+					.loc-status{
+						display: block;
+					}
+				}
+			}
+		}
+
+		.post-title{
+			font-size: 20px;
+			color: #222;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+		.class-tag{
+			font-weight: 600;
+			margin-bottom: 20px;
+			color: $purple;
+			i{
+				display: inline-block;	
+				vertical-align: bottom;
+			}
+		}
+		.comment-like{
+			display: -webkit-flex;
+			display: flex;
+			-webkit-align-items: center;
+			align-items: center;
+			// -webkit-justify-content: space-between;
+			// justify-content: space-between;
+			.like{
+				margin-left: 15px;				
+				position: relative;
+				span{
+					cursor: pointer;
+				}
+				&:hover{
+					.cont{
+						display: block;
+					}
+				}
+				.cont{
+					position: absolute;
+					bottom: 100%;
+					width: 250px;
+					background-color: #333;
+					padding: 15px;  
+					left: 0;
+					color: #fff;
+					text-align: left;
+					box-shadow: 3px 3px 10px rgba($dark,0.2);
+					border:1px solid rgba($dark,0.2);
+					display: none;
+					line-height: normal;
+					border-radius: 2px;
+				}
+			}
+		}
+	}
+}
