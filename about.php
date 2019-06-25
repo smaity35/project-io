@@ -534,6 +534,113 @@
                 <h3>Payments</h3>
                 <p>Let’s get you paid.</p>
             </div>
+            <div class="row">
+              <div class="col-md-8">
+                  
+                 
+                  <div class="title sec-8">
+                      <div class="form">                         
+                          <table>
+                                                    
+                              <tr>
+                                  <td>
+                                      <h6>Payment Schedule <small>Required</small></h6>
+                                  </td>
+                                  <td>
+                                      <label>
+                                          <input type="radio" name="">
+                                          <div class="content">
+                                              <p>Monthly</p>
+                                              <p>Charge my patrons at the start of every month.</p>
+                                          </div>
+                                      </label>
+                                      <label>
+                                          <input type="checkbox" name="">
+                                          <div class="content">
+                                              <p>Monthly</p>
+                                              <p>
+                                                You are charging patrons up front New patrons will be charged the day they become a patron, then on the 1st of the month going forward.
+                                              </p>
+                                              <p>
+                                                  <a href="">Learn more</a>
+                                              </p>
+                                          </div>
+                                      </label>
+                                  </td>
+                              </tr>
+                         
+                          </table>                          
+                      </div>
+                  </div>
+                  <div class="title sec-8">
+                      <div class="form">                         
+                          <table>
+                                                    
+                            
+                              <tr>
+                                  <td>
+                                      <h6>Edit Payout Settings</h6>
+                                      <p><a href="">Learn More</a></p>
+                                  </td>
+                                  <td>
+                                      <p>
+                                          Once your creator page is launched, you can edit your payout settings, including how you'd like to get paid and your tax information.
+                                      </p>
+                                  </td>
+                              </tr>
+                             
+                          </table>                          
+                      </div>
+                  </div>
+                 
+                  
+              </div>
+              <div class="col-md-4">
+                  <div class="big-btn">
+                      <button class="active" disabled>Save Changes</button>
+                  </div>
+                  <div class="title sec-5">
+                      <h6>CHECKLIST</h6>
+                      <ul class="list-type-1">
+                          <li class="green">
+                              <div class="round done"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload profile picture</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Upload cover image</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Create about section</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                          <li class="red">
+                              <div class="round"><i class="ion ion-md-checkmark"></i></div>
+                              <div class="content">
+                                  <p>Verify phone number</p>
+                                  <small>Required <a href="#">add now</a></small>
+                              </div>
+                          </li>
+                      </ul>
+                      <h6>LEARN MORE</h6>
+                      <ul class="list-type-2">
+                          <li><a href="">Membership 101: Best Practices</a></li>
+                          <li><a href="">How to choose your business model</a></li>
+                          <li><a href="">How to talk about Patreon to your audience</a></li>
+                          <li><a href="">Knowing your worth as a creator</a></li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
           </div>
           <div id="menu5" class="tab-pane fade">
             

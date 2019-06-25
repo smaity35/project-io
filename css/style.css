@@ -1235,5 +1235,83 @@ footer {
       .about-page-wrap .sec-7 .add-btn-goal button:hover {
         background-color: #443F53;
         box-shadow: none; }
+  .about-page-wrap .sec-8 {
+    padding-bottom: 0; }
+    .about-page-wrap .sec-8 table {
+      width: 100%; }
+      .about-page-wrap .sec-8 table td {
+        padding-bottom: 30px;
+        vertical-align: top; }
+        .about-page-wrap .sec-8 table td.no-pad-left {
+          padding-left: 0 !important;
+          width: 100% !important; }
+        .about-page-wrap .sec-8 table td:first-child {
+          width: 35%; }
+        .about-page-wrap .sec-8 table td:last-child {
+          width: 65%;
+          padding-left: 15px; }
+      .about-page-wrap .sec-8 table h6 {
+        font-size: 16px;
+        font-weight: 600; }
+        .about-page-wrap .sec-8 table h6 small {
+          display: block;
+          font-size: 88%;
+          padding-top: 5px; }
+          .about-page-wrap .sec-8 table h6 small a {
+            font-weight: 600;
+            color: #5C2D89; }
+            .about-page-wrap .sec-8 table h6 small a:hover {
+              color: #FF0000; }
+      .about-page-wrap .sec-8 table textarea {
+        width: 100%;
+        height: 160px;
+        border: 1px solid rgba(26, 54, 126, 0.125);
+        border-radius: 3px;
+        margin: 20px 0; }
+      .about-page-wrap .sec-8 table input[type=text] {
+        display: block;
+        width: 100%;
+        border: 1px solid rgba(26, 54, 126, 0.125);
+        border-radius: 3px; }
+      .about-page-wrap .sec-8 table p {
+        opacity: 0.8; }
+        .about-page-wrap .sec-8 table p a {
+          color: #5C2D89;
+          font-weight: 600; }
+          .about-page-wrap .sec-8 table p a:hover {
+            color: #FF0000; }
+      .about-page-wrap .sec-8 table label {
+        display: -webkit-flex;
+        display: flex;
+        font-weight: normal;
+        margin-bottom: 15px;
+        cursor: pointer; }
+        .about-page-wrap .sec-8 table label input[type=radio] {
+          -webkit-appearance: none;
+          border: 1px solid rgba(255, 0, 0, 0.35);
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0;
+          margin-right: 12px; }
+        .about-page-wrap .sec-8 table label input:checked {
+          background-color: rgba(255, 0, 0, 0.35);
+          border: 1px solid rgba(255, 0, 0, 0.65); }
+        .about-page-wrap .sec-8 table label input[type=checkbox] {
+          -webkit-appearance: none;
+          border: 1px solid rgba(255, 0, 0, 0.35);
+          width: 22px;
+          height: 22px;
+          border-radius: 3px;
+          display: block;
+          vertical-align: middle;
+          margin: 0;
+          margin-right: 12px; }
+        .about-page-wrap .sec-8 table label div {
+          width: calc(100% - 22px);
+          padding-left: 10px;
+          font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
