@@ -18,7 +18,7 @@
               <li class="tabs active"><a data-toggle="tab" href="#menu0">Overview</a></li>
               <li class="tabs"><a data-toggle="tab" href="#menu1">Posts</a></li>
              
-              <li class="tab-last"><a data-toggle="tab" href="#menu5">Become a patron</a></li>
+              <li class="tab-last"><a data-toggle="tab" href="#menu2">Become a patron</a></li>
             </ul>
 
         </div>
@@ -167,7 +167,7 @@
                   <div class="filter-list">
                     <select>
                       <option hidden value="Filter by tier" >Filter by tier</option>
-                      <option hidden value="All Patrons (106)" >All Patrons (106)</option>
+                      <option value="All Patrons (106)" >All Patrons (106)</option>
                       <?php
                           for($i=1; $i<=10; $i++){
                       ?>
@@ -294,7 +294,42 @@
             </div>
           </div>
        
-          
+          <div id="menu2" class="tab-pane fade">
+            <div class="row bpat">
+              <div class="col-md-6 ">
+                <div class="title sec-11">
+                    <h5>Get all the updates</h5>
+                    <h3>$3</h3>
+                    <h4>PER MONTH</h4>
+                    <ul>
+                      <li>Blog posts and updates</li>
+                      <li>Occasional shaky VLOGs</li>
+                      <li>A tiny gift in the mail once a year-ish</li>                      
+                     
+                    </ul>
+                    <div class="link"><a href="">Select</a></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 ">
+                <div class="title sec-11">
+                    <h5>All the updates plus extra glory</h5>
+                    <h3>$5</h3>
+                    <h4>PER MONTH</h4>
+                    <ul>
+                      <li>Blog posts and updates</li>
+                      <li>Occasional shaky VLOGs</li>
+                      <li>A tiny gift in the mail once a year-ish</li>
+                      <li>Putting your name in the jar for giveaways</li>
+                      <li>Eternal glory</li>
+                    </ul>
+
+                    <div class="link"><a href="">Select</a></div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
         </div>
 
           
