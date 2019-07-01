@@ -1,20 +1,89 @@
 
   <footer>
-    <img class="fack-img" src="images/footer.png">
-	 <!-- <div class="container">
-		
-			<div class="mcopy">
-				<span>Copyright 2018@ testproject. All Rights Reserved</span>
-			</div>
-			
-	 </div>	 -->
+        <section class="upper-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h3>Company</h3>
+                       <ul class="flink">
+                  <li>
+                      <a href="company_profile.php">Company Profile</a>
+                  </li>
+                  <li>
+                      <a href="about.php">About Us</a>
+                  </li>
+
+                  <li>
+                      <a href="association.php">Association</a>
+                  </li>
+                  <li>
+                      <a href="exhibition.php">Exhibition</a>
+                  </li>
+                  <li>
+                      <a href="testimonial.php">Testimonial</a>
+                  </li>
+
+              </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Customer</h3>
+                        <ul class="flink">
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signin">Login</a></li>
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register-modal">Register</a></li>
+                            <li><a href="my-account.php">My Account</a></li>
+                            <li><a href="cart.php">My Cart</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h3>Useful Links</h3>
+                        <ul class="flink">
+                            <li><a href="index.php" title="">Home</a></li>
+                <li><a href="media.php" title="">Media</a></li>
+                <li><a href="product-list.php" title="">Product</a></li>
+                <li><a href="shop.php" title="">Shop</a></li>
+                <li><a href="contact.php" title="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>Terms</h3>
+                        <ul class="flink">
+                            <li><a href="terms_and_conditions.php">Terms And Conditions</a></li>
+                            <li><a href="privacy_policy.php">Privacy Policy</a></li>
+                    
+                        </ul>
+                    </div>
+            <div class="col-md-4">
+              <h3>Stay Updated</h3>
+              <div class="form">
+                <div class="frow">
+                  <input type="text" name="" value="" placeholder="Enter Mail Id">
+                  <button type="submit">Subscribe</button>
+                </div>
+              </div>
+
+              <h3>Follow US</h3>
+              <ul class="fsocial">
+                <li><a href="" target="_blank" title=""><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="" target="_blank" title=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href="" target="_blank" title=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+                </div>
+            </div>
+        </section>
+        <section class="copy-wrap">
+            <div class="container">
+                <div class="copy-in clearfix">
+                     <p>Copyright 2018 © AK Exporters. All Rights Reserved.</p>
+                    <span class="ovlink"><a target="_blank"><img src="images/payment-cards-n_1.jpg"></a></span>
+                </div>
+            </div>  
+        </section>
+        
+        <div class="click-to-top"><a href="#" uk-totop uk-scroll></a></div>
   </footer>
 
-
-<!-- <div class="fixt-btn">
-	<a target="_blank" href="https://ovinternationalservices.com/pay-now/">BOOK &#160; NOW</a>
-</div>
-    -->
     
     
 

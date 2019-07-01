@@ -67,24 +67,40 @@
     <body>
         <!-- <div class="loder-cover"></div>-->
 
-        <header>
-            <img class="fack-img" src="images/header.png">
-                <!-- <section class="top-header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 logo">
-                                <a href="index.php"><img src="images/logo.png"></a>
-                            </div>
-                            <div class="col-md-9 right-side">
-                                <div class="admin-prof">
-                                    <span>User</span>
-                                    <div class="img-box" style="background-image: url('images/t3.jpg')"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-          
-        </header>
+        <header class="primary-header">
 
+    <section class="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 logo">
+                    <a href="index.php"><img src="images/logo.png" alt="Ov International"></a>
+                </div>
+
+          <div class="col-md-4 search-box">
+            <div class="form">
+              <div class="frow">
+                <input type="text" name="" value="" placeholder="Enter your search text here">
+                <button type="submit"><img src="images/magnifying-glass.svg" alt=""></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 short-link-wrap">
+            <div class="shot-link">
+              <ul>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signin">Sign In</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register-modal">Sign Up</a></li>
+                <!-- <li><a href="" title="">FabFamily</a></li> -->
+                <li><a href="" title="">FAQ </a></li>
+                <li><a href="" title="">CONTACT US</a></li>
+                <!-- <li><a href="" title="">Store Locater</a></li> -->
+              </ul>
+            </div>
+           
+          </div>
+                
+        
+            </div>
+        </div>
+    </section>    
+    </header>
 
