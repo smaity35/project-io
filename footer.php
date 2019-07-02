@@ -91,12 +91,37 @@
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/typeit.min.js"></script>
     <script src="js/isotope.pkgd.js"></script>
-    
+    <script type="text/javascript" src="js/www.gstatic.com_charts_loader.js"></script>
      <!--  <a href="images/2.jpg" data-fancybox="gallery" style="background-image:url(images/2.jpg);"><img src="images/blpic1.png" alt=""></a>-->
     <script src="js/uikit.min.js"></script>
     <script src="js/custom.js"></script>
- 
+    
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     0],
+          ['Target Price',  500],
+          ['Commute',  0],
+          ['Earned Price', 100],
+          ['Sleep',    0]
+        ]);
+
+        var options = {
+          // title: 'Price chart',
+          pieHole: 0.5,
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
     <script>
+
 		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		    anchor.addEventListener('click', function (e) {
 		        e.preventDefault();
