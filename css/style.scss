@@ -284,7 +284,8 @@ header {
 
 
 footer {
-    background-color: #2D2D2D;
+    // background-color: #2D2D2D;
+    background-image: url(../images/footer-bg.png);
     color:red;
     .upper-footer {
         padding: 40px 0 0px;
@@ -321,6 +322,9 @@ footer {
         .frow {
             display: -webkit-flex;
             display: flex;
+            border-radius: 3px;
+            overflow: hidden;
+            background-color: #fff;
             input {
                 width: calc(100% - 100px);
                 background-color: #fff;
@@ -336,8 +340,8 @@ footer {
                 padding: 0 15px;
                 width: 100px;
                 &:hover {
-                    background-color:red;
-                    color: #000;
+                    background-color:rgba($purple,0.2);
+                    color: $purple;
                 }
             }
         }
@@ -349,13 +353,14 @@ footer {
             margin-right: 10px;
             a {
                 display: inline-block;
-                width: 36px;
-                height: 36px;
-                line-height: 36px;
+                width: 42px;
+                height: 42px;
+                line-height: 42px;
                 border-radius: 50%;
                 background-color:$purple;
                 color: #fff;
                 text-align: center;
+                font-size: 20px;
                 &:hover {
                     background-color: #fff;
                     color:$purple;
@@ -364,21 +369,24 @@ footer {
         }
     }
     .copy-wrap {
-        background-color: #DCDACE;
-        color: #333;
+    	border-top: 1px solid rgba($merun,0.45);
+        background-color: rgba($merun,0.25);
+        color: #fff;
         .copy-in {
             // border-top: 1px solid #222;
-            padding: 15px 0;
+            padding: 10px 0;
         }
         p {
             opacity: 0.80;
             margin-bottom: 0px;
             float: left;
+            font-weight: 600;
+            line-height: 36px;
         }
         .ovlink {
             float: right;
             img {
-                height: 25px;
+                height: 36px;
                 width: auto;
             }
             a {

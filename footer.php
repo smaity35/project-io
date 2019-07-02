@@ -3,56 +3,36 @@
         <section class="upper-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2">
-                        <h3>Company</h3>
-                       <ul class="flink">
-                  <li>
-                      <a href="company_profile.php">Company Profile</a>
-                  </li>
-                  <li>
-                      <a href="about.php">About Us</a>
-                  </li>
+  
+          
 
-                  <li>
-                      <a href="association.php">Association</a>
-                  </li>
-                  <li>
-                      <a href="exhibition.php">Exhibition</a>
-                  </li>
-                  <li>
-                      <a href="testimonial.php">Testimonial</a>
-                  </li>
-
-              </ul>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>Customer</h3>
+                    <div class="col-md-3">
+                        <h3>QUICK LINKS</h3>
                         <ul class="flink">
-                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signin">Login</a></li>
-                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register-modal">Register</a></li>
-                            <li><a href="my-account.php">My Account</a></li>
-                            <li><a href="cart.php">My Cart</a></li>
+                            <li><a href="" title="">Become A Creator</a></li>
+                            <li><a href="" title="">Become A Supporter</a></li>
+                            <li><a href="" title="">Shop</a></li>
+                            <li><a href="" title="">Contact Us</a></li>
                         </ul>
                     </div>
-
-                    <div class="col-md-2">
-                        <h3>Useful Links</h3>
-                        <ul class="flink">
-                            <li><a href="index.php" title="">Home</a></li>
-                <li><a href="media.php" title="">Media</a></li>
-                <li><a href="product-list.php" title="">Product</a></li>
-                <li><a href="shop.php" title="">Shop</a></li>
-                <li><a href="contact.php" title="">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <h3>Terms</h3>
                         <ul class="flink">
-                            <li><a href="terms_and_conditions.php">Terms And Conditions</a></li>
-                            <li><a href="privacy_policy.php">Privacy Policy</a></li>
-                    
+                            <li><a href="">Terms And Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Cookie Policy</a></li>                    
                         </ul>
                     </div>
+                    <div class="col-md-2">
+                        <h3>ACCOUNT</h3>
+                        <ul class="flink">
+                            <li><a href="" title="">My Account</a></li>
+                            <li><a href="" title="">Login</a></li>
+                            <li><a href="" title="">Register</a></li>
+                            
+                        </ul>
+                    </div>
+                    
             <div class="col-md-4">
               <h3>Stay Updated</h3>
               <div class="form">
@@ -76,7 +56,7 @@
             <div class="container">
                 <div class="copy-in clearfix">
                      <p>Copyright 2018 © Project.Io. All Rights Reserved.</p>
-                    <span class="ovlink"><a target="_blank"><img src="images/payment-cards-n_1.jpg"></a></span>
+                    <span class="ovlink"><a target="_blank"><img src="images/pay.png"></a></span>
                 </div>
             </div>  
         </section>
