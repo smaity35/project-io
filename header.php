@@ -80,15 +80,15 @@
             <div class="form">
               <div class="frow">
                 <input type="text" name="" value="" placeholder="Enter your search text here">
-                <button type="submit"><img src="images/magnifying-glass.svg" alt=""></button>
+                <button type="submit"><img src="images/magnifying-glass-white.svg" alt=""></button>
               </div>
             </div>
           </div>
           <div class="col-md-4 short-link-wrap">
             <div class="shot-link">
               <ul>
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signin">Sign In</a></li>
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#register-modal">Sign Up</a></li>
+                <li><a href="login-register.php" >Sign In</a></li>
+                <li><a href="login-register.php" >Sign Up</a></li>
                 <!-- <li><a href="" title="">FabFamily</a></li> -->
                 <li><a href="" title="">FAQ </a></li>
                 <li><a href="" title="">CONTACT US</a></li>

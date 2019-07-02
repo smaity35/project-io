@@ -75,7 +75,7 @@
         <section class="copy-wrap">
             <div class="container">
                 <div class="copy-in clearfix">
-                     <p>Copyright 2018 © AK Exporters. All Rights Reserved.</p>
+                     <p>Copyright 2018 © Project.Io. All Rights Reserved.</p>
                     <span class="ovlink"><a target="_blank"><img src="images/payment-cards-n_1.jpg"></a></span>
                 </div>
             </div>  
